@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+header a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+#pizza {
+    height: 500px;
+    width: 500px;
+}
+
+#totalConf {
+    padding: auto;
+    width: 300px;
+    height: 100px;
+    background-color: aqua;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#totalRec p {
+    font-weight: bold;
+    padding: 25px 0 0 0;
+}
+
+#totalRec {
+    padding: auto;
+    width: 300px;
+    height: 100px;
+    background-color: aqua;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#totalConf p {
+    font-weight: bold;
+    padding: 25px 0 0 0;
+}
+
+#totalMort {
+    padding: auto;
+    width: 300px;
+    height: 100px;
+    background-color: aqua;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#totalMort p {
+    font-weight: bold;
+    padding: 25px 0 0 0;
+}
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Números de COVID</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <header><a href="index.html">Home</a><a href="pais.html">País</a></header>
+
+    <main>
+      <!-- <canvas id="myChart"></canvas> -->
+      <div id="kpis">
+        <div id="totalConf">
+        </div>
+        <div id="totalMort">
+        </div>
+        <div id="totalRec">
+        </div>
+      </div>
+      
+      <div id="pizza">
+        <canvas id="chartPizza"></canvas>
+      </div>
+      <div id="barras"></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
