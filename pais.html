@@ -15,15 +15,17 @@
   <header><a href="index.html">Home</a><a href="pais.html">País</a></header>
   <main>
     <div id="filtros">
-        <p>Data inicio:</p>
+        <label>Data inicio:</label>
         <input type="date" name="dataInicio" id="dataInicio">
-        <p>Data fim:</p>
+        <label>Data fim:</label>
         <input type="date" name="dataFim" id="dataFim">
         <label for="paisOrigem">País:</label>
-        
-        <label for="dadosApi">Dados:</label>
+        <input type="text" name="" id="paisOrigem">
+        <button id="buscar">Buscar</button>
     </div>
-    <div id="graficoCurva"></div>
+    <div id="graficoCurva">
+      <canvas id="chartLine"></canvas>
+    </div>
   </main>
   <script src="script.js"></script>
 </body>
